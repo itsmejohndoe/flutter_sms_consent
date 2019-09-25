@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../sms_consent/sms_consent.iml" filepath="$PROJECT_DIR$/../sms_consent/sms_consent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../sms_consent/android/sms_consent_android.iml" filepath="$PROJECT_DIR$/../sms_consent/android/sms_consent_android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../sms_consent/example/android/sms_consent_example_android.iml" filepath="$PROJECT_DIR$/../sms_consent/example/android/sms_consent_example_android.iml" />
+    </modules>
+  </component>
+</project>
