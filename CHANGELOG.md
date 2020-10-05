@@ -17,3 +17,7 @@
 ## 0.0.5
 
 * Fixed the empty configuration for iOS. (The was causing the build to fail)
+
+## 0.0.6
+
+* Bumped kotlin version to 1.3.10

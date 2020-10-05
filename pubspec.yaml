@@ -1,11 +1,11 @@
 name: sms_consent
 description: A Flutter plugin that enable the use of SMS User Consent API.
-version: 0.0.5
-author: John Doe <me@johndoe.dev>
+version: 0.0.6
 homepage: https://johndoe.dev/
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
+  flutter: ">=1.10.0<2.0.0"
 
 dependencies:
   flutter:
@@ -25,8 +25,12 @@ flutter:
   # be modified. They are used by the tooling to maintain consistency when
   # adding or updating assets for this project.
   plugin:
-    androidPackage: dev.johndoe.sms_consent
-    pluginClass: SmsConsentPlugin
+    platforms:
+      android:
+        package: dev.johndoe.sms_consent
+        pluginClass: SmsConsentPlugin
+      ios:
+        pluginClass: SmsConsentPlugin
 
   # To add assets to your plugin package, add an assets section, like this:
   # assets:
